@@ -34,7 +34,7 @@ ul {
 }
 body {
   font-family: "Roboto", sans-serif;
-  background: var(--primary-white-color);
+  background-color: var(--primary-white-color);
   color: var(--primary-text-color);
 }
 address {
@@ -122,12 +122,12 @@ img {
 .nav-item {
 }
 
-.nav-link::after {
+.curent::after {
   content: "";
   display: block;
   width: 100%;
   height: 4px;
-  background: #404bbf;
+  background-color: #404bbf;
   border-radius: 2px;
   position: absolute;
   bottom: 0px;
