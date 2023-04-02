@@ -361,18 +361,20 @@ img {
   transition: fill var(--transition-dur-fun);
 }
 
-.customers-item:hover,
-.customers-item:focus {
+.customers-item:hover {
   border: 1px solid #404bbf;
   fill: #404bbf;
 }
 
-.customers-item:hover .customers-item-icon,
-.customers-item:focus .customers-item-icon {
+.customers-item:hover .customers-item-icon {
   fill: #404bbf;
 }
 .customers-item-link:focus .customers-item-icon {
   fill: #404bbf;
+}
+
+.customers-item-link:focus {
+  border: 1px solid #404bbf;
 }
 
 /*----------------- Footer------------ */
